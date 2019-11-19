@@ -1,0 +1,39 @@
+|- src/ (or client/)  <--- where you write JavaScript code
+|  |- components/
+|  |  |- CowList.js
+|  |  |- CowDetails.js
+|  |- App.js
+|
+
+
+      PUBLIC FOLDER
+|  |- components/
+|  |  |- CowList.js
+|  |  |- CowDetails.js
+|  |- App.js
+|  |- index.html               <---- where you write HTML code
+|  |- styles.css               <---- where you write CSS code
+|
+
+
+      SERVER
+|- server/              <---- files in this dir are run by Node.js
+|  |- index.js
+|  |- helpers.js
+|
+|- db/
+|  |- index.js
+|
+|- node_modules/
+|  |- ...
+|  |- ...
+|
+
+
+    EXTRA FILES
+|- .gitignore
+|- notes
+|- package.json
+|- package-lock.json
+|- webpack.config.js
+|- README.md
