@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, '../client/public')))
 app.use("/api", router);
 
-//! might need to change this to 3000
+//! might need to change this to 3000-----app.listen(3000);
 app.listen(port, () => {
   console.log(`App listening on port ${port}`);
 });
